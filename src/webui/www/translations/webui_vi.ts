@@ -160,10 +160,6 @@
         <translation>Giới hạn thời gian chia sẻ phải trong khoảng từ 0 đến 525600 phút.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Cổng được sử dụng cho các kết nối đến phải nằm trong khoảng từ 1 đến 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>Cổng được sử dụng cho giao diện người dùng Web phải từ 1 đến 65535.</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Tác giả gốc</translation>
+        <translation type="vanished">Tác giả gốc</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,6 +365,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation>Cổng được dùng cho các kết nối đến phải nằm trong khoảng từ 0 đến 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -725,10 +725,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Sử dụng UPnP / NAT-PMP để chuyển tiếp cổng từ bộ định tuyến của tôi</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Sử dụng các cổng khác nhau mỗi lần khởi động</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1122,7 +1118,7 @@
     </message>
     <message>
         <source>Prefer TCP</source>
-        <translation type="unfinished" />
+        <translation>Ưu tiên TCP</translation>
     </message>
     <message>
         <source>Outstanding memory when checking torrents:</source>
@@ -1194,7 +1190,7 @@
     </message>
     <message>
         <source>IP Address to report to trackers (requires restart):</source>
-        <translation>Địa chỉ IP để báo cáo cho trình theo dõi (yêu cầu khởi động lại):</translation>
+        <translation type="vanished">Địa chỉ IP để báo cáo cho trình theo dõi (yêu cầu khởi động lại):</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1479,6 +1475,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%I: Băm thông tin v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1776,6 +1784,10 @@
         <source>N/A</source>
         <translation type="unfinished" />
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +1998,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Kiểm tra (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Kiểm tra (0)</translation>
     </message>
 </context>
 <context>
@@ -2189,7 +2201,7 @@
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished" />
+        <translation>Không</translation>
     </message>
     <message>
         <source>Seeds</source>
@@ -2336,7 +2348,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Đang tải về dữ liệu mô tả</translation>
     </message>
 </context>
 <context>
@@ -2745,7 +2757,7 @@
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Kết quả (đang hiển thị</translation>
+        <translation type="vanished">Kết quả (đang hiển thị</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2778,6 +2790,14 @@
     <message>
         <source>to</source>
         <translation>đến</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3006,7 +3026,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>Tác giả</translation>
+        <translation type="vanished">Tác giả</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3015,6 +3035,14 @@
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Cơ sở dữ liệu IP đến Country Lite miễn phí của DB-IP được sử dụng để giải quyết các quốc gia ngang hàng. Cơ sở dữ liệu được cấp phép theo Giấy phép Quốc tế Ghi Công Sáng Tạo Công Cộng 4.0</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>

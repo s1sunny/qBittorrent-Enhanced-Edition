@@ -160,10 +160,6 @@
         <translation>El limite de tiempo de sembrado debe estar entre 0 y 525600 minutos.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">El puerto utilizado para conexiones entrantes debe estar comprendido entre 1 y 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>El puerto utilizado para la interfaz Web debe estar comprendido entre 1 y 65535.</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Autores originales</translation>
+        <translation type="vanished">Autores originales</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,6 +365,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation>El puerto usado para conexiones entrantes debe estar comprendido entre 0 y 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -725,10 +725,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Usar reenvío de puertos UPnP / NAT-PMP de mi router</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Usar un puerto diferente en cada inicio</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1194,7 +1190,7 @@
     </message>
     <message>
         <source>IP Address to report to trackers (requires restart):</source>
-        <translation>Dirección IP para reportar a rastreadores (requiere reinicio):</translation>
+        <translation type="vanished">Dirección IP para reportar a rastreadores (requiere reinicio):</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1479,6 +1475,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%I: Informacion hash v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1776,6 +1784,10 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +1998,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Comprobando (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Comprobando (0)</translation>
     </message>
 </context>
 <context>
@@ -2336,7 +2348,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Descargando metadatos</translation>
     </message>
 </context>
 <context>
@@ -2745,7 +2757,7 @@
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Resultados (mostrando</translation>
+        <translation type="vanished">Resultados (mostrando</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2778,6 +2790,14 @@
     <message>
         <source>to</source>
         <translation>a</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3006,7 +3026,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>Autor</translation>
+        <translation type="vanished">Autor</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3015,6 +3035,14 @@
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>La base de datos gratuita IP to Country Lite de DB-IP se usa para resolver los pares de países. La base de datos está licenciada bajo Creative Commons Attribution 4.0 International License</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>

@@ -141,7 +141,7 @@
     </message>
     <message>
         <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Kunde inte spara programinställningarna. qBittorrent är antagligen inte nåbar.</translation>
+        <translation>Det gick inte att spara programinställningarna. qBittorrent är antagligen inte nåbar.</translation>
     </message>
     <message>
         <source>IRC: #qbittorrent on Freenode</source>
@@ -160,16 +160,12 @@
         <translation>Distributionstidsgränsen måste vara mellan 0 och 525600 minuter.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Porten som användas för inkommande anslutningar måste vara mellan 1 och 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>Porten som används för webbgränssnittet måste vara mellan 1 och 65535</translation>
     </message>
     <message>
         <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Kunde inte logga in. qBittorrent är troligtvis inte nåbart.</translation>
+        <translation>Det gick inte att logga in. qBittorrent är troligtvis inte nåbart.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Ursprungliga upphovsmän</translation>
+        <translation type="vanished">Ursprungliga upphovsmän</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,6 +365,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation>Porten som används för inkommande anslutningar måste vara mellan 0 och 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -616,7 +616,7 @@
     </message>
     <message>
         <source>Email notification upon download completion</source>
-        <translation>E-postavisering när hämtning slutförs</translation>
+        <translation>E-postavisering vid hämtning slutförs</translation>
     </message>
     <message>
         <source>Run external program on torrent completion</source>
@@ -636,7 +636,7 @@
     </message>
     <message>
         <source>Automatically add these trackers to new downloads:</source>
-        <translation>Lägg a&amp;utomatiskt till dessa bevakare till nya hämtningar:</translation>
+        <translation>Lägg a&amp;utomatiskt till de här bevakarna till nya hämtningar:</translation>
     </message>
     <message>
         <source>Web User Interface (Remote control)</source>
@@ -725,10 +725,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Använd UPnP / NAT-PMP-portomdirigering från min router</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Använd olika portar vid varje start</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -902,7 +898,7 @@
     </message>
     <message>
         <source>Do not count slow torrents in these limits</source>
-        <translation>Räkna inte med långsamma torrenter i dessa begränsningar</translation>
+        <translation>Räkna inte långsamma torrenter med de här gränserna</translation>
     </message>
     <message>
         <source>then</source>
@@ -1182,7 +1178,7 @@
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
-        <translation>Skicka buffert vattenstämpelsfaktor:</translation>
+        <translation>Skicka buffertvattenstämpelsfaktor:</translation>
     </message>
     <message>
         <source>libtorrent Section</source>
@@ -1194,7 +1190,7 @@
     </message>
     <message>
         <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP-adress att rapportera till bevakare (kräver omstart):</translation>
+        <translation type="vanished">IP-adress att rapportera till bevakare (kräver omstart):</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1230,7 +1226,7 @@
     </message>
     <message>
         <source>Send buffer watermark:</source>
-        <translation>Skicka buffert vattenstämpel:</translation>
+        <translation>Skicka buffertvattenstämpel:</translation>
     </message>
     <message>
         <source>Peer proportional (throttles TCP)</source>
@@ -1250,7 +1246,7 @@
     </message>
     <message>
         <source>Upload choking algorithm:</source>
-        <translation>Ladda upp strypningsalgoritm:</translation>
+        <translation>Strypningsalgoritm för sändning:</translation>
     </message>
     <message>
         <source>Seeding Limits</source>
@@ -1274,7 +1270,7 @@
     </message>
     <message>
         <source>Send buffer low watermark:</source>
-        <translation>Skicka buffert låg vattenstämpel:</translation>
+        <translation>Skicka låg buffertvattenstämpel:</translation>
     </message>
     <message>
         <source>Save resume data interval:</source>
@@ -1479,6 +1475,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%I: Info hash v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1766,15 +1774,19 @@
     </message>
     <message>
         <source>Info Hash v2:</source>
-        <translation>Info Hash v2:</translation>
+        <translation>Info hash v2:</translation>
     </message>
     <message>
         <source>Info Hash v1:</source>
-        <translation>Info Hash v1:</translation>
+        <translation>Info hash v1:</translation>
     </message>
     <message>
         <source>N/A</source>
         <translation>Ingen</translation>
+    </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1986,11 +1998,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Kontrollerar (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Kontrollerar (0)</translation>
     </message>
 </context>
 <context>
@@ -2336,7 +2348,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[T] Hämtar metadata</translation>
     </message>
 </context>
 <context>
@@ -2745,7 +2757,7 @@
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Resultat (visar</translation>
+        <translation type="vanished">Resultat (visar</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2779,6 +2791,14 @@
         <source>to</source>
         <translation>till</translation>
     </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>PluginSelectDlg</name>
@@ -2808,7 +2828,7 @@
     </message>
     <message>
         <source>Warning: Be sure to comply with your country's copyright laws when downloading torrents from any of these search engines.</source>
-        <translation>Varning: Var noga med att följa ditt lands upphovsrättslagar när du hämtar torrenter från någon av dessa sökmotorer.</translation>
+        <translation>Varning: Var noga med att följa ditt lands upphovsrättslagar när du hämtar torrenter från någon av de här sökmotorerna.</translation>
     </message>
     <message>
         <source>Check for updates</source>
@@ -2939,7 +2959,7 @@
     </message>
     <message>
         <source>Untagged</source>
-        <translation>Otaggade</translation>
+        <translation>Utan taggar</translation>
     </message>
 </context>
 <context>
@@ -3006,7 +3026,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>Upphovsmän</translation>
+        <translation type="vanished">Upphovsmän</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3015,6 +3035,14 @@
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Den fria databasen IP to Country Lite av DB-IP används för att slå upp nodernas länder. Databasen är licensierad enligt Creative Commons Attribution 4.0 International License</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3430,7 +3458,7 @@ Stöder formaten: S01E01, 1x1, 2017.12.31 och 31.12.2017 (datumformatet stöder 
     </message>
     <message>
         <source>Trackerless (%1)</source>
-        <translation>Bevakarlösa (%1)</translation>
+        <translation>Utan bevakare (%1)</translation>
     </message>
     <message>
         <source>Pause torrents</source>

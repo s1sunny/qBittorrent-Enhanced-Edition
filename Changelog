@@ -1,3 +1,21 @@
+Sun Oct 31 2021 - sledgehammer999 <sledgehammer999@qbittorrent.org> - v4.3.9
+    - BUGFIX: Fix "no action" option on torrent double click (Jose M. Abuin)
+    - BUGFIX: Fix broken behavior of "priority by shown file order" (Chocobo1)
+    - WEBUI: Fix WebUI crash when tracker URL is invalid (Chocobo1)
+    - WEBUI: Revert "WebUI: group trackers by hostname" (Chocobo1)
+    - WINDOWS: Remove Windows Vista support from manifest (xavier2k6)
+    - WINDOWS: NSIS: Update Korean, Indonesian and Traditional Chinese translation (JungHee Lee, Faisal Al-Munawar Fathur Rahman, SiderealArt)
+
+Sun Aug 29 2021 - sledgehammer999 <sledgehammer999@qbittorrent.org> - v4.3.8
+    - BUGFIX: Delay processing of watched folders (#15282) (glassez)
+    - BUGFIX: Use the same icon for selecting folders/files (Chocobo1)
+    - BUGFIX: Use default upper limits for ddns entries (Chocobo1)
+    - WEBUI: Expose SSRF mitigation (#15247) (Sylvain Finot)
+    - WEBUI: Update webui libraries (Chocobo1)
+    - WEBUI: Group trackers by hostname (#15264) (Mengyang Li)
+    - WEBUI: Improve "last activity" calculation in WebAPI (#15339) (Chocobo1)
+    - WINDOWS: NSIS: Add Polish translation (#15262) (Matthaiks)
+
 Tue Aug 03 2021 - sledgehammer999 <sledgehammer999@qbittorrent.org> - v4.3.7
     - BUGFIX: Don't forget to start Watched folders timer (glassez)
     - BUGFIX: Don't close tags menu when toggling items (tgregerson)

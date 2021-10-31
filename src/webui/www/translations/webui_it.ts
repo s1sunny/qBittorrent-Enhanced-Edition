@@ -160,10 +160,6 @@
         <translation>Il limite temporale di condivisione deve essere tra 0 e 525600 minuti.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">La porta usata per le connessioni in entrata deve essere compresa tra 1 e 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>La porta usata per l'interfaccia web deve essere compresa tra 1 e 65535.</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Autori originari</translation>
+        <translation type="vanished">Autori originari</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -370,6 +366,10 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation>La porta usata per le connessioni in entrata deve essere compresa tra 0 e 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -726,10 +726,6 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Usa UPnP / NAT-PMP per aprire le porte del mio router</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Usa porte diverse ad ogni avvio</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1195,7 +1191,7 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>IP Address to report to trackers (requires restart):</source>
-        <translation>Indirizzo IP da segnalare ai tracker (richiede il riavvio):</translation>
+        <translation type="vanished">Indirizzo IP da segnalare ai tracker (richiede il riavvio):</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1480,6 +1476,18 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     <message>
         <source>%I: Info hash v1</source>
         <translation>%J: Info hash v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1777,6 +1785,10 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
         <source>N/A</source>
         <translation>N/D</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1987,11 +1999,11 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Verifica (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Verifica (0)</translation>
     </message>
 </context>
 <context>
@@ -2337,7 +2349,7 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Download metadati</translation>
     </message>
 </context>
 <context>
@@ -2746,7 +2758,7 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Risultati (visualizzano</translation>
+        <translation type="vanished">Risultati (visualizzano</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2779,6 +2791,14 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     <message>
         <source>to</source>
         <translation>in</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3007,7 +3027,7 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation>Autore</translation>
+        <translation type="vanished">Autore</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3017,6 +3037,14 @@ Assicurati che corrispondano allo standard IP:porta.</translation>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Il database gratuito da IP a Country Lite di DB-IP viene usato per risolvere i paesi dei peer. 
 Il database è concesso in licenza con la licenza internazionale Creative Commons Attribution 4.0</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>

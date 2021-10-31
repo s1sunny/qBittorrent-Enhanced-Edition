@@ -160,10 +160,6 @@
         <translation>Ограничението за време на споделяне трябва да бъде между 0 и 525600 минути.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Портът, който се използва за входящи връзки трябва да бъде между 1 и 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>Портът, който се използва за Web UI трябва да бъде между 1 и 65535.</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Оригинален автори</translation>
+        <translation type="vanished">Оригинален автори</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -370,6 +366,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation>Портът използван за входящи връзки трябва да бъде между 0 и 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -726,10 +726,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Използване на UPnP / NAT-PMP порт за препращане от моя рутер</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Използване на различен порт при всяко стартиране</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1195,7 +1191,7 @@
     </message>
     <message>
         <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP адрес за информиране на тракери (изисква рестарт):</translation>
+        <translation type="vanished">IP адрес за информиране на тракери (изисква рестарт):</translation>
     </message>
     <message>
         <source>Recheck torrents on completion:</source>
@@ -1480,6 +1476,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%I: Инфо хеш в1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1777,6 +1785,10 @@
         <source>N/A</source>
         <translation>Няма</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1987,11 +1999,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Проверяване (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Проверяване (0)</translation>
     </message>
 </context>
 <context>
@@ -2337,7 +2349,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[П] Сваляне на метаданните</translation>
     </message>
 </context>
 <context>
@@ -2746,7 +2758,7 @@
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Резултати (показва</translation>
+        <translation type="vanished">Резултати (показва</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2779,6 +2791,14 @@
     <message>
         <source>to</source>
         <translation>към</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3007,7 +3027,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>Автор</translation>
+        <translation type="vanished">Автор</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3016,6 +3036,14 @@
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Свободната IP to Country Lite база данни от DB-IP се използва за намиране на държавите на участници. Базата данни е лицензирана под Creative Commons Attribution 4.0 International License</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>

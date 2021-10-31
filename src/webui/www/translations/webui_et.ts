@@ -160,10 +160,6 @@
         <translation>Jagamise aja limiit peab olema vahemikus 0 ja 525600 minutit.</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Port kasutuseks sissetulevatel ühendustel peab olema vahemikus 1 kuni 65535.</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>Port peab Web UI kasutuseks olema vahemikus 1 kuni 65535.</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>Algselt autorid</translation>
+        <translation type="vanished">Algselt autorid</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,6 +365,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -725,10 +725,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation type="unfinished" />
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Kasuta teistsugust porti igal taaskäivitamisel</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1189,6 @@
         <translation>Väljuvad pordid (Min) [0: Keelatud]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation type="unfinished" />
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Kontrolli üle torrentid pärast allalaadimist:</translation>
     </message>
@@ -1450,15 +1442,15 @@
     </message>
     <message>
         <source>Outgoing connections per second:</source>
-        <translation type="unfinished" />
+        <translation>Väljuvaid ühendusi ühes sekundis:</translation>
     </message>
     <message>
         <source>Random</source>
-        <translation type="unfinished" />
+        <translation>Suvaline</translation>
     </message>
     <message>
         <source>%K: Torrent ID</source>
-        <translation type="unfinished" />
+        <translation>%K: Torrenti ID</translation>
     </message>
     <message>
         <source>Reannounce to all trackers when IP or port changed:</source>
@@ -1478,6 +1470,18 @@
     </message>
     <message>
         <source>%I: Info hash v1</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -1774,6 +1778,10 @@
     </message>
     <message>
         <source>N/A</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Progress:</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -2336,7 +2344,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[S] Allalaaditakse metadata't</translation>
     </message>
 </context>
 <context>
@@ -2456,7 +2464,7 @@
     </message>
     <message>
         <source>Super seeding mode</source>
-        <translation type="unfinished" />
+        <translation>Super jagamise režiim</translation>
     </message>
     <message>
         <source>Rename...</source>
@@ -2544,7 +2552,7 @@
     </message>
     <message>
         <source>Torrent ID</source>
-        <translation type="unfinished" />
+        <translation>Torrent'i ID</translation>
     </message>
 </context>
 <context>
@@ -2662,7 +2670,7 @@
     <message>
         <source>Unknown</source>
         <comment>Unknown (size)</comment>
-        <translation type="unfinished" />
+        <translation>Tundmatu</translation>
     </message>
     <message>
         <source>&lt; 1m</source>
@@ -2745,7 +2753,7 @@
     </message>
     <message>
         <source>Results (showing</source>
-        <translation>Tulemused (kuvatakse</translation>
+        <translation type="vanished">Tulemused (kuvatakse</translation>
     </message>
     <message>
         <source>Filter</source>
@@ -2777,6 +2785,14 @@
     </message>
     <message>
         <source>to</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -3006,7 +3022,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>Autor</translation>
+        <translation type="vanished">Autor</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3014,6 +3030,14 @@
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -3444,7 +3468,7 @@ Supports the formats: S01E01, 1x1, 2017.12.31 and 31.12.2017 (Date formats also 
     </message>
     <message>
         <source>Unread</source>
-        <translation type="unfinished" />
+        <translation>Lugemata</translation>
     </message>
 </context>
 </TS>

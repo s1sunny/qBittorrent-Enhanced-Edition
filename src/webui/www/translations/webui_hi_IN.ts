@@ -160,10 +160,6 @@
         <translation>स्रोत काल 0 व 525600 मिनट के बीच में ही होना चाहिए</translation>
     </message>
     <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">आवक कनेक्शनों के लिए प्रयुक्त पोर्ट 1 और 65535 के बीच होना चाहिए।</translation>
-    </message>
-    <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
         <translation>वेब UI के लिए प्रयुक्त पोर्ट 1024 से अधिक और 65535 से कम होना चाहिए।</translation>
     </message>
@@ -189,7 +185,7 @@
     </message>
     <message>
         <source>Original authors</source>
-        <translation>मूल रचियता</translation>
+        <translation type="vanished">मूल रचियता</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,6 +365,10 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Original author</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -725,10 +725,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation type="unfinished" />
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">एप्लिकेशन शुरू करने पर हर बार नया पोर्ट प्रयोग करें</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1189,6 @@
         <translation>जावक पोर्ट (न्यूनतम) [0: निष्क्रिय]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation type="unfinished" />
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>पूर्ण होने पर टाॅरेंट पुनः जाँचें:</translation>
     </message>
@@ -1479,6 +1471,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%I: जानकारी हैश v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1775,6 +1779,10 @@
     <message>
         <source>N/A</source>
         <translation>लागू नहीं</translation>
+    </message>
+    <message>
+        <source>Progress:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2744,10 +2752,6 @@
         <translation>में खोजें:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation type="unfinished" />
-    </message>
-    <message>
         <source>Filter</source>
         <translation>फिल्टर</translation>
     </message>
@@ -2778,6 +2782,14 @@
     <message>
         <source>to</source>
         <translation>से</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3006,7 +3018,7 @@
     </message>
     <message>
         <source>Author</source>
-        <translation>रचनाकार</translation>
+        <translation type="vanished">रचनाकार</translation>
     </message>
     <message>
         <source>Software Used</source>
@@ -3014,6 +3026,14 @@
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>France</source>
         <translation type="unfinished" />
     </message>
 </context>
